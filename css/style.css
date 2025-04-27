@@ -114,22 +114,7 @@ body{
     text-decoration: underline var(--color-primario);
 }
 
-.theme{
 
-}
-
-.mainLight, .mainDark{
-    width: max-content;
-    margin: 0 auto;
-}
-.mainLight{
-    display: var(--show-sun);
-    
-}
-
-.mainDark{
-    display: var(--show-moon);
-}
 
 
 .heroMain{
@@ -157,6 +142,9 @@ body{
     justify-self: center;
 }
 
+.contacimg{
+    height: 200px;
+}
 .heroImg{
     width: 100%;
 }
@@ -173,6 +161,10 @@ body{
     padding: 1rem 0;
     border-radius: 10px;
     text-align: center;
+}
+
+.mensaje{
+    padding-bottom: 20px;
 }
 
 .card1{
@@ -193,6 +185,9 @@ margin-bottom: 16px;
     
 }
 
+.buttonmensje{
+    background-color: var(--color-primario);
+}
 .buttonService{
     width: 100%;
     margin-top: 10px;
